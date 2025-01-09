@@ -1,0 +1,259 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+
+
+.logo-image{
+    width: 10vw;
+
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4vh 8vw;
+    border-bottom: 1px solid #f2f2f2;
+    
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+.options{
+    display: flex;
+    gap: 2vw;
+}
+ 
+ a {
+    text-decoration: none;
+    color: gray;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 88vh;
+    gap: 4vh;
+    justify-content: center;
+}
+ 
+.main img{
+    width: 56vw;
+}
+
+.main heading{
+    font-size: 3px;
+}
+
+.main button{
+    background-color: blue;
+    border: none;
+    color: aliceblue;
+    padding: 10px 24px;
+    border-radius: 4px;
+}
+
+.context{
+    padding: 4vh 8vw;
+}
+
+h2{
+    color: #424242;
+}
+
+h4{
+    color: #424242;
+}
+
+p{
+    color: #666666;
+}
+
+.para1{
+    display: flex;
+ align-items: flex-start; 
+    gap: 2vw;
+    padding: 4vh 8vw;
+}
+ .img2 img{
+    width: 35vw;
+    height: auto;
+    flex: 1;
+ }
+
+ span{
+    color: cornflowerblue;
+ }
+
+.pic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+
+.parent{
+    
+    padding: 4vh 8vw;
+    margin-top: 60px;
+    gap: 60px;
+    display: flex;
+    
+}
+
+.main button:hover{
+    background-color: #222;
+}
+
+
+.child4{
+    width: 30%;
+    justify-content: space-between;
+    display: flex;
+}
+.child4 img{
+    height: 60px;
+    width: 80px;
+}
+
+p1 {
+    font-size: 5px;
+}
+
+.parent-3{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.one .two .three {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    height: 20px;
+}
+
+ /* .child5{
+    height: 100px;
+    width: 100px;
+
+
+} */
+
+.parent-4{
+    
+    display: flex;
+    justify-content: space-around;
+  
+    
+    margin-top: 60px;
+   
+} 
+
+
+.marketedu{
+    width: 500px;
+    margin-top: 60px;
+}
+
+.account{
+    justify-content: center;
+    text-align: center;
+    margin-top: 90px;
+}
+
+.account button:hover{
+    background-color: #222;
+}
+
+
+.account button{
+    background-color: blue;
+    border: none;
+    color: aliceblue;
+    padding: 10px 24px;
+    border-radius: 4px;
+    margin-top: 25px;
+}
+
+p9{
+    font-size: 20px;
+    color: #666666;
+    
+}
+
+
+.footer{
+    padding: 4vh 8vw;
+    justify-content: space-between;
+    display: flex;
+}
+
+.last{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 14vh 14vw;
+    
+
+ }
+ .last-image {
+     width: 12vw;
+
+ }
+
+
+.final{
+    padding: 10vh 2vw;
+    text-align: justify;
+    align-items: center;
+    font-weight: 40;
+    font-size: smaller;
+    color: #666;
+}
+
+.final h3{
+    color: gray;
+}
+
+.last-2{
+    flex-direction: column;
+}
+
+.last-3{
+    flex-direction: column;
+}
+
+
+.last-4{
+    flex-direction: column;
+}
+
+.final{
+    padding: 4vh 8vw;
+
+}
+
+.footer-2{
+    flex-direction: column-reverse;
+}
+
+span{
+    color: cornflowerblue
+}
+
+.com:hover{
+    background-color: darkblue;
+    
+}
